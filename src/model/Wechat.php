@@ -1,0 +1,1 @@
+<?phpnamespace yqn\sdkmiddle\model;class Wechat extends ModelBase{    public function app_list()    {        var_dump("asdfasdf");    }}

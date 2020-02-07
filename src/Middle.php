@@ -1,0 +1,1 @@
+<?phpnamespace yqn\sdkmiddle;class Middle{    public static $config;    public static function SetConfig($config)    {        self::$config = $config;    }    private static function Client()    {        return new RPC(self::$config);    }}

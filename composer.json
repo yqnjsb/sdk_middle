@@ -1,5 +1,5 @@
 {
-  "name": "yqnspp/sdk-middle",
+  "name": "yiqiniu/sdk-middle",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -8,10 +8,12 @@
       "email": "13271582882@163.com"
     }
   ],
-  "require": {},
+  "require": {
+    "php": ">=7.0"
+  },
   "autoload": {
     "psr-4": {
-      "yqnspp\\": "src"
+      "yqn\\middle\\": "src"
     },
     "files": [
 
