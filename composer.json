@@ -1,0 +1,20 @@
+{
+  "name": "yiqiniu/middle-sdk",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "songpeipeng",
+      "email": "13271582882@163.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "yiqiniu\\": "src"
+    },
+    "files": [
+      
+    ]
+  }
+}
