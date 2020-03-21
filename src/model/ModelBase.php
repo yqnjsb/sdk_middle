@@ -1,1 +1,0 @@
-<?phpnamespace yqn\sdkmiddle\model;class ModelBase{    public $client;    public function __construct($client)    {        $this->client = $client;    }}

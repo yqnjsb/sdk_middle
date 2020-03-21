@@ -1,0 +1,1 @@
+<?phpnamespace yqn\sdkmiddle\action\We;use yqn\sdkmiddle\action\ModelBase;class App extends ModelBase{    protected $apiPath = [        "Add" => "We.App.Add",        "Edit" => "We.App.Edit",        "Del" => "We.App.Del",        "Get" => "We.App.Get",        "List" => "We.App.List",        "Page" => "We.App.Page",    ];}

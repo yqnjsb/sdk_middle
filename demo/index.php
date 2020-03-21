@@ -1,0 +1,1 @@
+<?phpinclude "autoload.php";$config = include "config.php";use yqn\sdkmiddle\Middle;$data = ["appid" => 3];$midSdk = Middle::Instance($config);$result = $midSdk->We_App()->Add($data);var_dump($result["msg"]);

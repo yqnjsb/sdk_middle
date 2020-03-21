@@ -1,0 +1,1 @@
+<?phpnamespace yqn\sdkmiddle\action\We;class We{    public $app;    public $Menu;    public $Users;    public $config;    public function __construct($config)    {        $this->config = $config;    }    public function App()    {        if ($this->app == null) {            $this->app = new App($this->config);        }        return $this->app;    }}
